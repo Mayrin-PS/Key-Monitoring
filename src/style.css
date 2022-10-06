@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply bg-DarkGreen px-2 py-3 mt-2 rounded-sm shadow-md text-white font-semibold text-sm;
+}
